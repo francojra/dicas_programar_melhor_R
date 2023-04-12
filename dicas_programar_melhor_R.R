@@ -21,3 +21,16 @@
 
 ### Um script do R pode ser feito com rascunhos das análises e ficar na mesma pasta dos
 ### dados brutos.
+
+# Rdata/Rhistory ---------------------------------------------------------------------------------------------------------------------------
+
+### Muitas vezes a pasta com os projetos eviados por empresas ou colegas vem com o Rhistory
+### que são os dados salvos no 'Environment'.
+
+### Não é necessário salvar o Rdata, pois todo o código fica salvo dentro dos scripts.
+
+### Carregar o Rdata dentro do reprositório pode deixar o trabalho mais lento, pois irá sempre
+### carregar o Rdata ao iniciar a sessão.
+
+### Deve sempre carregar o projeto do zero para que o objeto lido seja do código executado
+### e não de uma sessão anterior.
