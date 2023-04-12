@@ -91,8 +91,16 @@ janitor::clean_names() # Para limpar acentos de nomes nas colunas.
 
 # 7 - Aproveite os recursos da IDE RStudio -------------------------------------------------------------------------------------------------
 
-### Limpar o console: Ctrl + l
+### Limpar o console: Ctrl + L
 
-### Para navega e encontrar arquivos e funções: Ctrl + .
+### Para encontrar scripts rapidamente: Ctrl + .
 
 ### Inserir uma nova seção: Ctrl + Shift + W
+
+### Estabelecer um diretório: Ctrl + Shift + H
+
+### Encontrar funções e palavras no script: Ctrl + Shift + F
+
+### Tools > Global Options > Code > Display > Use rainbow parentheses
+
+### Para abrir tipos específicos de arquivos: Ctrl + Shift + P
