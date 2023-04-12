@@ -1,11 +1,11 @@
 
-# 10 Dicas para Programar Melhor em R ------------------------------------------------------------------------------------------------------
-# Autoria do script: Jeanne Franco ---------------------------------------------------------------------------------------------------------
-# Data: 11/04/23 ---------------------------------------------------------------------------------------------------------------------------
-# Referência: https://www.youtube.com/watch?v=1YPXSh09VOU ----------------------------------------------------------------------------------
+# 10 Dicas para Programar Melhor em R ----------------------------------------------------------------------------------------------------------
+# Autoria do script: Jeanne Franco -------------------------------------------------------------------------------------------------------------
+# Data: 11/04/23 -------------------------------------------------------------------------------------------------------------------------------
+# Referência: https://www.youtube.com/watch?v=1YPXSh09VOU --------------------------------------------------------------------------------------
 
 
-# 1 - Organização --------------------------------------------------------------------------------------------------------------------------
+# 1 - Organização ------------------------------------------------------------------------------------------------------------------------------
 
 ### Um script organizado permite menor gasto de tempo, como na busca por arquivos em
 ### uma pasta, encontro de erros nos códigos, etc. Após um tempo sem utilizar o código
@@ -22,7 +22,7 @@
 ### Um script do R pode ser feito com rascunhos das análises e ficar na mesma pasta dos
 ### dados brutos.
 
-# Rdata/Rhistory ---------------------------------------------------------------------------------------------------------------------------
+# 2 - Rdata/Rhistory ---------------------------------------------------------------------------------------------------------------------------
 
 ### Muitas vezes a pasta com os projetos eviados por empresas ou colegas vem com o Rhistory
 ### que são os dados salvos no 'Environment'.
@@ -40,3 +40,29 @@
 ### em 'Save worspace to .RData on exit'. Também desmarcar as opções da sessão History.
 
 ### O seu History deve ser o seu script!
+
+# 3 - Caminho absoluto vs caminho relativo -----------------------------------------------------------------------------------------------------
+
+### Caminho absoluto: usa-se o '~/' e tab para encontrar o caminho raiz/absoluto do 
+### projeto.
+
+"~/"
+
+### Caminho relativo: caminho relativo a alguma pasta. Inicia da pasta do diretório
+### de trabalho.
+
+### O caminho sempre deve ser ajustado quando os scripts vem da pasta de outro computador.
+### Quando a pessoa usa o caminho relativo, esse problema não ocorrerá. Pois os caminhos
+### relativos serão os mesmos em ambos os computadores. Isso na ajuda na reprodutibilidade.
+
+# 4 - Não utilize acentos ------------------------------------------------------------------------------------------------------------------
+
+### Pode haver problemas de ecoding. Alguns computadores usam ISO, outros UTF, que funcionam
+### como diferentes dicionários que interpretam os acentos.
+
+### Em comentários, não há problemas.
+
+### Não usar acentos em nomes de colunas nos dados do Excel.
+
+janitor::clean_names() #Para limpar acentos de nomes nas colunas.
+
