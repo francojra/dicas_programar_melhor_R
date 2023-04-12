@@ -14,4 +14,7 @@
 
 ### Defina um modelo padrão de organização dos seus scripts para todos os projetos.
 
-### Crie projetos no RStudio para facilitar a organização.
+### Crie projetos no RStudio para facilitar a organização. Interessante definir uma pasta
+### para os scripts, e onde cada script é responsável por diferentes tipos de análises.
+
+
