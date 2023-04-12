@@ -79,3 +79,13 @@ janitor::clean_names() # Para limpar acentos de nomes nas colunas.
 
 ### É importante apagar o Global Environment para que os códigos não utilizem
 ### objetos criados anteriormente.
+
+# 6 - Library ------------------------------------------------------------------------------------------------------------------------------
+
+### Interessante usar o nome do pacote e em seguida ":" com o nome da função
+### porque isso permite carregar o pacote ao mesmo tempo que executar a função.
+### Isso também garante menos linhas de códigos.
+
+### Carregar os pacotes mais usados no início do script, para que não seja
+### necessário sempre colocar o nome do pacote.
+
