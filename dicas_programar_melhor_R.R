@@ -89,3 +89,10 @@ janitor::clean_names() # Para limpar acentos de nomes nas colunas.
 ### Carregar os pacotes mais usados no início do script, para que não seja
 ### necessário sempre colocar o nome do pacote.
 
+# 7 - Aproveite os recursos da IDE RStudio -------------------------------------------------------------------------------------------------
+
+### Limpar o console: Ctrl + l
+
+### Para navega e encontrar arquivos e funções: Ctrl + .
+
+### Inserir uma nova seção: Ctrl + Shift + W
