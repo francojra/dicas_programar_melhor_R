@@ -104,3 +104,15 @@ janitor::clean_names() # Para limpar acentos de nomes nas colunas.
 ### Tools > Global Options > Code > Display > Use rainbow parentheses
 
 ### Para abrir tipos específicos de arquivos: Ctrl + Shift + P
+
+# 8 - Pedindo ajuda ------------------------------------------------------------------------------------------------------------------------
+
+### Copiar e colar o error no Google.
+
+### Usar o pacote reprex (exemplo reproditível). Transforma seu código e erro 
+### em um arquivo de texto bem formatado e fácil de copiar e colar no Stackoverflow.
+### Isso facilita a compreensão de outras pessoas para ajudar.
+
+library(reprex)
+mean(3,6,8)
+reprex({mean(3,6,8)})
