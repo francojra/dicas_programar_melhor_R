@@ -4,7 +4,6 @@
 # Data: 11/04/23 -------------------------------------------------------------------------------------------------------------------------------
 # Referência: https://www.youtube.com/watch?v=1YPXSh09VOU --------------------------------------------------------------------------------------
 
-
 # 1 - Organização ------------------------------------------------------------------------------------------------------------------------------
 
 ### Um script organizado permite menor gasto de tempo, como na busca por arquivos em
@@ -64,5 +63,19 @@
 
 ### Não usar acentos em nomes de colunas nos dados do Excel.
 
-janitor::clean_names() #Para limpar acentos de nomes nas colunas.
+janitor::clean_names() # Para limpar acentos de nomes nas colunas.
 
+# 5 - Environments -------------------------------------------------------------------------------------------------------------------------
+
+### Aba que mostra todos os objetos criados.
+
+### Também apresenta os pacotes base do R, ou seja, os pacotes que já vem
+### carregados com diversas funções.
+
+### Algumas funções do R estão presentes em mais de um pacote, por isso
+### ocorre o aviso ao carregar um pacote de que outros pacotes podem ser
+### mascarados (sobrescritos). Considerando isso, é interessante colocar
+### o nome do pacote e em seguida ":" com o nome da função.
+
+### É importante apagar o Global Environment para que os códigos não utilizem
+### objetos criados anteriormente.
