@@ -116,3 +116,16 @@ janitor::clean_names() # Para limpar acentos de nomes nas colunas.
 library(reprex)
 mean(3,6,8)
 reprex({mean(3,6,8)})
+
+# 9 - Não se preocupe em escrever sempre o melhor código -----------------------------------------------------------------------------------
+
+### O melhor código é o que funciona.
+
+# 10 - Participe das comunidades -----------------------------------------------------------------------------------------------------------
+
+### Aprende com as pessoas mais experientes.
+
+### Comunidades como a R-Ladies e Curso-R.
+
+### Divulgar seus trabalhos do R para compartilhar conhecimentos.
+
