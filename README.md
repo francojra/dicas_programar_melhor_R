@@ -1,1 +1,1 @@
-# dicas_programas_melhor_R
+# dicas_programar_melhor_R
