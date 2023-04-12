@@ -34,3 +34,9 @@
 
 ### Deve sempre carregar o projeto do zero para que o objeto lido seja do código executado
 ### e não de uma sessão anterior.
+
+### Existe uma forma de não criar um Rdata no seu projeto indo em 'Tools > Global Options'
+### 'General' > Desmarcar a opção 'Restore .RData into workspace at startup', e marcar 'never'
+### em 'Save worspace to .RData on exit'. Também desmarcar as opções da sessão History.
+
+### O seu History deve ser o seu script!
